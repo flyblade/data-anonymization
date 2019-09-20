@@ -3,7 +3,7 @@ Afraid of using production data due to privacy issues? Data Anonymization is a t
 
 ## Java/Kotlin version
 
-Java/Kotlin version of tool supporting RDBMS databases is available with similar easy to use DSL. 
+Java/Kotlin version of tool supporting RDBMS databases is available with similar easy to use DSL.
 * [Kotlin/Java Data Anonymization Tool](https://github.com/dataanon/data-anon)
 * [Kotlin Maven Sample Project](https://github.com/dataanon/dataanon-kotlin-sample)
 * [Java Maven Sample Project](https://github.com/dataanon/dataanon-java-sample)
@@ -80,6 +80,9 @@ Postgresql database having **composite primary key**
 
 
 ## Changelog
+
+#### 0.8.4 (Sept 20, 2019)
+1. Use activerecord-import after fix dupe columns and wrong import table bugs
 
 #### 0.8.1 (Aug 19, 2017)
 1. Multi-threading support added by [stanislav-tyutin](https://github.com/stanislav-tyutin) using Pull Request.
