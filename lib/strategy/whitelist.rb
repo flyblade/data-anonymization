@@ -28,7 +28,7 @@ module DataAnon
 
       def bulk_store(records)
         columns = source_table.column_names
-        dest_table.import columns, records, validate: false, on_duplicate_key_update: columns, timestamps: false
+        dest_table.import columns, records, validate: false, timestamps: false
       end
 
     end
